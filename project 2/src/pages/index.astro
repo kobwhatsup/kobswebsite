@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Profile from '../components/Profile.astro';
+import About from '../components/About.astro';
+import Projects from '../components/Projects.astro';
+---
+
+<Layout title="KOB - Tech Explorer in Finance">
+    <Nav />
+    <main>
+        <Profile />
+        <About />
+        <Projects />
+    </main>
+</Layout>
+
+<style>
+    main {
+        margin: auto;
+        padding: 2rem;
+        width: 1200px;
+        max-width: calc(100% - 2rem);
+        color: white;
+        font-size: 20px;
+        line-height: 1.6;
+        padding-top: 4rem;
+    }
+</style>

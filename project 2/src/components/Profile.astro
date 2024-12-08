@@ -1,0 +1,62 @@
+---
+---
+<section class="profile">
+	<div class="profile-content">
+		<div class="icons">
+			<img src="/rocket.svg" alt="Rocket" class="icon rocket" />
+			<img src="/cat.svg" alt="Cat" class="icon cat" />
+		</div>
+		<h1>KOB</h1>
+		<p class="tagline">科技探索者 · 金融实践者</p>
+	</div>
+</section>
+
+<style>
+	.profile {
+		text-align: center;
+		padding: 4rem 0;
+		position: relative;
+	}
+
+	.profile-content {
+		position: relative;
+		z-index: 1;
+	}
+
+	.icons {
+		display: flex;
+		justify-content: center;
+		gap: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.icon {
+		width: 64px;
+		height: 64px;
+		opacity: 0.8;
+		transition: transform 0.3s ease;
+	}
+
+	.rocket:hover {
+		transform: rotate(-45deg) translateY(-10px);
+	}
+
+	.cat:hover {
+		transform: scale(1.1);
+	}
+
+	h1 {
+		font-size: 3.5rem;
+		font-weight: 700;
+		margin: 0;
+		background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.tagline {
+		font-size: 1.5rem;
+		color: #A0AEC0;
+		margin-top: 0.5rem;
+	}
+</style>

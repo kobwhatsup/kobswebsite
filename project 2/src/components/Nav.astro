@@ -1,0 +1,57 @@
+---
+---
+<nav class="nav">
+    <div class="nav-content">
+        <div class="logo">KOB</div>
+        <div class="nav-links">
+            <a href="#about">关于</a>
+            <a href="#projects">项目</a>
+            <a href="#contact">联系我</a>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(19, 21, 26, 0.8);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+        padding: 1rem 0;
+    }
+
+    .nav-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        background: linear-gradient(45deg, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-links a {
+        color: var(--text);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: var(--primary);
+    }
+</style>

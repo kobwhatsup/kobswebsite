@@ -1,0 +1,72 @@
+---
+---
+<section id="about" class="about">
+    <div class="content">
+        <h2>关于我</h2>
+        <p>
+            我是一个充满好奇心的科技爱好者，阴差阳错地进入了金融领域。这种独特的经历让我能够用技术思维看待金融，
+            用金融视角理解科技。在这个快速变化的世界里，我致力于探索科技与金融的完美结合。
+        </p>
+        <div class="interests">
+            <div class="interest">
+                <h3>💻 科技热情</h3>
+                <p>热爱编程与新技术，持续关注科技发展前沿</p>
+            </div>
+            <div class="interest">
+                <h3>📊 金融实践</h3>
+                <p>将技术思维带入金融领域，探索创新解决方案</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .about {
+        padding: 4rem 0;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 1rem;
+        margin: 2rem 0;
+        scroll-margin-top: 5rem;
+    }
+
+    .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: var(--primary);
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    p {
+        color: var(--text);
+        line-height: 1.8;
+    }
+
+    .interests {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .interest {
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .interest:hover {
+        transform: translateY(-5px);
+    }
+
+    h3 {
+        color: var(--secondary);
+        margin-bottom: 1rem;
+    }
+</style>
